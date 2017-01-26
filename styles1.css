@@ -1,54 +1,41 @@
-body, html {height: 100%;
-    margin: 0;}
-
-.bgimg {background-image: url('speed.jpg');
-    height: 100%;
+body { 
+    background-image: url('test.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: center;
-    background-size: cover;
-    position: relative;
+}
+
+a:link {color: green; background-color: transparent; text-decoration: none;}
+a:visited {color: red; background-color: transparent; text-decoration: none;}
+a:hover {color: black; background-color: transparent; text-decoration: underline;}
+a:active {color: yellow; background-color: transparent; text-decoration: underline;}
+
+ul {
+    list-style-type: none;
+    font-size: 25px;
+    font-family: "Courier New", Courier, monospace;
+    }
+
+p1{
+    font-size: 60px;
     color: white;
     font-family: "Courier New", Courier, monospace;
-    font-size: 25px;}
+}
 
-.topleft {position: absolute;
-    top: 50%;
-    left: 66px;}
+hr{
+    margin: auto;
+    width: 50%;
+}
 
-.bottomleft {position: absolute;
-    bottom: 0;
-    left: 16px;}
+p{
+    font-size: 25px;
+    text-indent: 5%;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+}
 
-.middle {position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;}
-
-.middleright {position: absolute;
-    top: 30%;
-    left: 66px;}
-
-hr {margin: auto;
-    width: 100%;}
-
-nav {position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;}
-
-h1 {color: #800000}
-
-a {font-size: 25px}
-
-div {color: #800000; font-size: 20px;}
-
-.scroll {width: 385px;
-    height: 400px;
-    overflow: auto;
-    position: relative;
-    top: 30%;
-    right: -30%;}
-
-img {position: relative;
-    right: -260%;}
+p2{
+    font-size: 10px;
+    color: gray;
+    font-family:;
+}
