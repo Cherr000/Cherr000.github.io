@@ -1,13 +1,17 @@
 body {
-    background-image: url("test.jpg")
+    background-color: white;
 }
 
 h1 {
     position: center;
     font-size: 300%;
     font-family: "Courier New", Courier, monospace;
-    color: white;
+    color: black;
     font-weight: bold;
+}
+
+.row1{
+    background: #787878;
 }
 
 .sidenav {
