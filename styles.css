@@ -1,0 +1,17 @@
+body{background-color: black;}
+h1{color:white; font-size: 36px;}
+h3{color:red;}
+p{color: white;
+font-family: news time roman;
+font-size: 15px}
+.boldclass{font-weight:;bold}
+#bigID{font-size: 24px}
+p1{color: white;
+font-family: news time roman;
+font-size: 15px}
+p2{color: white;
+font-family: news time roman;
+font-size: 15px}
+ul{border: 5px solid black; outline-style: double; outline-color: white}
+a{color: black}
+fieldset{color: white;}
